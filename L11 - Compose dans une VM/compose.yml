@@ -1,0 +1,18 @@
+services: 
+  hello1: 
+    depends_on: 
+      - reverseproxy
+    image: "nginxdemos/hello"
+    restart: always
+
+  hello2: 
+    depends_on: 
+      - reverseproxy
+    image: "nginxdemos/hello"
+    restart: always
+
+  reverseproxy: 
+    image: jmaitrehenry/reverseproxy
+    ports: 
+      - "80:80"
+    restart: always
