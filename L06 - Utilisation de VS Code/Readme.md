@@ -1,4 +1,4 @@
-# L05 - Utilisation de VS Code
+# L06 - Utilisation de VS Code
 
 ![Hands-On Files](../images/checked-files-50px.png)
 
