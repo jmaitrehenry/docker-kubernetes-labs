@@ -1,8 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-dep
-  namespace: default
+  name: hello-v2
 spec:
   replicas: 3
   strategy:
@@ -12,14 +11,14 @@ spec:
       maxUnavailable: 1
   selector:
     matchLabels:
-      app: hello-dep
+      app: hello-v2
   template:
     metadata:
       labels:
-        app: hello-dep
+        app: hello-v2
     spec:
       containers:
-      - image: kumojin/todo:v1
+      - image: kumojin/todo:v2
         resources:
           requests:
             cpu: 100m
@@ -28,6 +27,6 @@ spec:
             cpu: 250m
             memory: 256Mi      
         imagePullPolicy: Always
-        name: hello-dep
+        name: hello-v2
         ports:
         - containerPort: 3000
