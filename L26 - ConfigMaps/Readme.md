@@ -1,4 +1,4 @@
-# L25 - ConfigMaps
+# L26 - ConfigMaps
 
 ![Hands-On Files](../images/checked-files-50px.png)
 

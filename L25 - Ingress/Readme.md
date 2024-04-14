@@ -1,4 +1,4 @@
-# L24 - Ingress
+# L25 - Ingress
 
 ![Hands-On Files](../images/checked-files-50px.png)
 

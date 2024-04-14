@@ -1,4 +1,4 @@
-# L26 - Secrets
+# L27 - Secrets
 
 ![Hands-On Files](../images/checked-files-50px.png)
 

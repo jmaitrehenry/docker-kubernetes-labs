@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: lb-example
+spec:
+  type: LoadBalancer
+  selector:
+    app: nginx
+    env: prod
+  ports:
+  - port: 8080
+    targetPort: 80
