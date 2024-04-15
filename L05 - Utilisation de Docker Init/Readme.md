@@ -10,7 +10,7 @@ Saisissez la commandes Docker suivantes :
 
 Plusieurs questions seront posé pour configurer le projet:
 - La plateforme utilisé: Node
-- La version de Node: Garder la version par défaut
+- La version de Node: 20
 - Le gestionnaire de dépendances: npm
 - La commande pour partir l'application: npm start
 - Le port utilisé: 3000
@@ -28,6 +28,7 @@ On va se focaliser sur le `Dockerfile` ainsi que sur le fichier de documentation
 ## Exécuter une instance à l'aide de la commande proposé
 
 Dans le terminal, exécuté la commande:
+
     docker compose up --build
 
 Pointez votre navigateur sur http://localhost:3000
