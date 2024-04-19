@@ -28,13 +28,4 @@ spec:
           secretKeyRef:
             name: secrets
             key: password            
-      - name: USERNAME2
-        valueFrom:
-          secretKeyRef:
-            name: secrets2
-            key: username
-      - name: PASSWORD2
-        valueFrom:
-          secretKeyRef:
-            name: secrets2
-            key: password            
+           

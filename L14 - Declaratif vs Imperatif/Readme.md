@@ -10,7 +10,7 @@ Déployons un conteneur Nginx en utilisant les deux méthodes.
 
 ## Déclaratif
 
-    kubectl create -f deploy-example.yaml
+    kubectl apply -f deploy-example.yaml
 
 ## Nettoyer
 

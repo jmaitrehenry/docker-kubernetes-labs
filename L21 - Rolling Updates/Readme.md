@@ -48,7 +48,7 @@ Modifiez le fichier YAML et changez la version du conteneur de v1 à v2. Enregis
 
 ## Obtenir l'historique du déploiement
 
-    kubectl rollout status deployment/hello-dep
+    kubectl rollout history deployment/hello-dep
 
 ---
  
@@ -64,7 +64,7 @@ ou
 
 ## Obtenir l'historique du déploiement
 
-    kubectl rollout status deployment/hello-dep
+    kubectl rollout history deployment/hello-dep
 
 ## Combien de ReplicaSets avons-nous ?
 

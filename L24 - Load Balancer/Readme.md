@@ -14,7 +14,7 @@
 
     kubectl get pods -o wide
 
-## Opbetenir l'IP externe du load balancer
+## Obtenir l'IP externe du load balancer
 
     kubectl get svc
 

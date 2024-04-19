@@ -41,7 +41,7 @@ Créons maintenant un pod exécutant BusyBox, cette fois en attachant bash à no
 
 Créons maintenant un pod à l'aide d'un fichier YAML.
 
-    kubectl create -f myapp.yaml
+    kubectl apply -f myapp.yaml
 
 ## Obtenir plus d'informations
 
